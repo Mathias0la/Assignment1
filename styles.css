@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+*{
+  margin:0
+}
+
+
+html{
+    background-color: #B56576;
+    font-family: "Poppins", sans-serif;
+}
+
+
+nav{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+/* Style the navigation bar */
+.navbar {
+    margin-top: 0;
+    width: 100%;
+    background-color: #6D597A;
+    margin: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color:#EAAC8B;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #355070
+  }
+  
+.container{
+  width: 80%;
+  padding: 150px;
+  margin: 0px;
+
+  display: flex;
+  
+  justify-content: space-between;
+
+}
+
+a:hover{
+  color: white;
+}
+
+article{
+  background-color: #355070;
+  width:auto;
+  height: auto;
+  margin: 25px;
+  justify-content: center;
+  color: #EAAC8B;
+}
+
+article p{
+padding: 15px;
+color: #EAAC8B;
+margin-bottom: 10px;
+text-indent:1em;  
+text-align:center;
+}
+
+article a{
+  display: flex;
+  justify-content: center;
+  color:black;
+  padding: 15px;
+
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  text-decoration: underline #EAAC8B 3px;
+}
+
+article img{
+  width: 300px;
+  height: 300px;
+  padding: 11px;
+  margin: 10px;
+}
+
+.overskrift img{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.overskrift{
+  position:relative;
+  text-align: center;
+}
+
+h1{
+  color: #EAAC8B;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bolder;
+  text-decoration: underline #EAAC8B 5px;
+ 
+}
+
+
+
+
+input[type=text], select, textarea {
+  width: 50%; 
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+input[type=submit] {
+  background-color: #E56B6F;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 50%;
+}
+
+input[type=submit]:hover {
+  background-color: #6D597A;
+}
+
+.Contact-form {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ padding: 10px;
+ color: #EAAC8B;
+ background-color: #6D597A;
+
+}
+
+footer{background-color: #6D597A;
+display: flex;
+justify-content: center;
+padding: 5px;
+}
+
+.infopage > img{
+display: flex;
+align-content: center;
+width: 95%;
+margin-top: 10px;
+}
+
+.container2{
+  display: flex;
+  justify-content: center;
+}
+
+.container-item2{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 55%;
+}
+
+.contact-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
